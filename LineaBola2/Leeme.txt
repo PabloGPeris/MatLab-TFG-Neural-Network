@@ -1,0 +1,16 @@
+******ENLACE GITHUB CON TODAS LAS COSAS DE MATLAB*******
+https://github.com/PabloGPeris/MatLab-TFG-Neural-Network
+********************************************************
+
+Los archivos se llaman LBD (de línea, bola y doble - doble bola)
+LBD_01 genera 100 imágenes de líneas, bolas y dobles como nube de puntos aleatoria en una cuadrilla de 100x100, guarda las coordenadas de cada punto y guarda las imágenes en la carpeta imgLineaBolaDoble. 
+LBD_02 entrena una red neuronal para clasificarlas. La red entrenada y las imágenes de test se guardan en "resultados1.mat"
+LBD_03 coge las coordenadas generadas en LBD_01 y las pasa a formato circular (tomando una coordenada como el argumento y otra como el módulo), y guarda las imágenes en formato 100x100 en la carpeta imgLineaBolaDobleC. 
+LBD_04 entrena otra red neuronal (en verdad, la misma) con las imágenes de LBD_03 en formato circular. La red entrenada y las imágenes de test se guardan en "resultados2.mat"
+Test_resultados sirve para clasificar aleatoriamente 4 imágenes de test y observar el resultado de la red.
+
+
+
+****************************
+La red de LBD_02 y resultados1 tiene un 98.89% de acierto.
+La red de LBD_04 y resultados2 tiene un 93.33% de acierto.
