@@ -1,0 +1,8 @@
+Estos archivos csv, tienen tres campos:
+time_s, phase_deg, amp_10bit
+
+El campo phase_deg marca el valor en grados de evento de descarga parcial
+el campo amp_10bit es el valor de la amplitud representado como un entero de 10 bits sin signo, es decir, valores entre 0 y 1023
+El campo time_s es el valor en segundo en el ocurrió el evento, dado que no tenemos la referencia de la onda senoidal, este valor no sería utilizable sin información adicional
+
+En base a lo anterior se deben utilizar los campos phase_deg y amp_10bit
